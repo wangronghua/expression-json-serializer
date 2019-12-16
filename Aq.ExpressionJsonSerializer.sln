@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aq.ExpressionJsonSerializer", "Aq.ExpressionJsonSerializer\Aq.ExpressionJsonSerializer.csproj", "{F6FD2AAC-7409-48A1-80C5-112CCAF4FA1A}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aq.ExpressionJsonSerializer", "Aq.ExpressionJsonSerializer\Aq.ExpressionJsonSerializer.csproj", "{ACC650AA-C603-4783-BD16-AE3CE3A9A45D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aq.ExpressionJsonSerializer.Tests", "Aq.ExpressionJsonSerializer.Tests\Aq.ExpressionJsonSerializer.Tests.csproj", "{348525AE-72C1-4250-81D2-79D244856F7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aq.ExpressionJsonSerializer.Tests", "Aq.ExpressionJsonSerializer.Tests\Aq.ExpressionJsonSerializer.Tests.csproj", "{F67FD39A-95BC-45C5-B169-798B9367FC55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F6FD2AAC-7409-48A1-80C5-112CCAF4FA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6FD2AAC-7409-48A1-80C5-112CCAF4FA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6FD2AAC-7409-48A1-80C5-112CCAF4FA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6FD2AAC-7409-48A1-80C5-112CCAF4FA1A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{348525AE-72C1-4250-81D2-79D244856F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{348525AE-72C1-4250-81D2-79D244856F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{348525AE-72C1-4250-81D2-79D244856F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{348525AE-72C1-4250-81D2-79D244856F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC650AA-C603-4783-BD16-AE3CE3A9A45D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC650AA-C603-4783-BD16-AE3CE3A9A45D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC650AA-C603-4783-BD16-AE3CE3A9A45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC650AA-C603-4783-BD16-AE3CE3A9A45D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67FD39A-95BC-45C5-B169-798B9367FC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67FD39A-95BC-45C5-B169-798B9367FC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67FD39A-95BC-45C5-B169-798B9367FC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67FD39A-95BC-45C5-B169-798B9367FC55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7347509-D9F3-40A9-84F7-295F1497FAA0}
 	EndGlobalSection
 EndGlobal
