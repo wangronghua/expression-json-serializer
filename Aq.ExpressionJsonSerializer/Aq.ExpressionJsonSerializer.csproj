@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Aq.ExpressionJsonSerializer.Core</PackageId>
+    <Authors>Aq.ExpressionJsonSerializer.Core</Authors>
+    <Product>Aq.ExpressionJsonSerializer.Core</Product>
   </PropertyGroup>
 
   <ItemGroup>
